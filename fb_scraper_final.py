@@ -131,7 +131,6 @@ def scrapeposts():
                 print('Stopped scraping posts for paging')
                 hasnextpage = False
 
-    scrapecomments()
 
 def scrapecomments():
     # Zeit des aktuellen Scrapes
@@ -242,3 +241,4 @@ if __name__ == '__main__':
     csv_statuses()
     csv_comments()
     scrapeposts()
+    scrapecomments()
